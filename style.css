@@ -126,7 +126,7 @@
     flex-direction: column;
     width: 360px;
     height: 260px;
-    background-image: url(image/formen.jpg);
+    background-image: url(../image/formen.jpg);
 }
 
 .content-item__women {
@@ -137,7 +137,7 @@
     flex-direction: column;
     width: 360px;
     height: 260px;
-    background-image: url(image/forwomen.jpg);
+    background-image: url(../image/forwomen.jpg);
 }
 
 .content-item__kids {
@@ -148,7 +148,7 @@
     flex-direction: column;
     width: 360px;
     height: 260px;
-    background-image: url(image/forkids.jpg);
+    background-image: url(../image/forkids.jpg);
 }
 
 .content-item__acceories {
@@ -160,7 +160,7 @@
     background-repeat: no-repeat;
     /* width: 100%; */
     height: 160px;
-    background-image: url(image/acceories.jpg);
+    background-image: url(../image/acceories.jpg);
     background-position: center;
     background-size: 97%;
 }
