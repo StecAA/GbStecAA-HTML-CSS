@@ -1,0 +1,110 @@
+.header__wrp {
+        display: flex;
+        justify-content: space-around;
+        flex-grow: 3;
+}
+
+.header__wrp-logo {
+        width: 25%;
+}
+
+.header__list {
+        background-color: $black;
+        border: none;
+}
+
+.header__list-basket {
+        width: 10%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.page-index__nav-title {
+        @include font(bold, 14px, 17px);
+        text-transform: uppercase;
+        margin-top: 37px;
+        margin-left: 34px;
+}
+
+.menu-item {
+        &__title {
+                @include font(normal, 14px, 17px);
+                color: $textred;
+                text-transform: uppercase;
+                margin-top: 20px;
+                margin-left: 33px;
+
+        }
+
+        &__sab-item {
+                margin-top: 11px;
+                margin-left: 54.5px;
+                @include font(normal, 14px, 17px);
+                color: #6F6E6E;
+
+        }
+}
+
+.page-index {
+        display: flex;
+        background-color: $bgpinc;
+        height: 764px;
+}
+
+.page-index__nav {
+        width: 15%;
+        background: $white;
+        margin-left: auto;
+}
+
+.page-index__text {
+        @include font(900, 48px, 58px);
+        text-transform: uppercase;
+}
+
+.page-index__wrp {
+        display: flex;
+}
+
+.page-index__wrp-text {
+        font-family: $font-lato;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 44px;
+        color: $black;
+        text-transform: uppercase;
+}
+
+.page-index__content {
+        margin-top: 25%;
+        position: absolute;
+        left: 54%;
+}
+
+.page-index__wrp-text-red {
+        margin-left: 28px;
+        @include font(900, 28px, 44px);
+        text-transform: uppercase;
+        color: $textred;
+}
+
+.page-index__pic {
+        width: 63%;
+
+}
+
+
+
+.section-intem__caption {
+        display: flex;
+        justify-content: center;
+        @include font(normal, 30px, 36px);
+}
+
+.section-intem__sab-caption {
+        @include flex-center;
+        @include font(normal, 14px, 17px);
+        color: #9F9F9F;
+}
