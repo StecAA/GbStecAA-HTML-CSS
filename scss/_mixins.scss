@@ -12,3 +12,15 @@
         line-height: $height;
         color: $black;
 }
+
+@mixin media($min-width, $max-width) {
+        @media (min-width: $min-width)and(max-width: $max-width) {
+                @content;
+        }
+}
+
+@mixin hover {
+        background: #a6f53e;
+        background-size: 100%;
+        opacity: 0.4;
+}

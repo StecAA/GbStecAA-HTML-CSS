@@ -2,10 +2,21 @@
         display: flex;
         justify-content: space-around;
         flex-grow: 3;
+
+        @include media(320px, 767px) {
+                justify-content: space-between;
+        }
 }
 
 .header__wrp-logo {
         width: 25%;
+
+        @include media(320px, 767px) {
+                display: flex;
+                @include flex-center;
+                margin-left: 16px;
+        }
+
 }
 
 .header__list {
@@ -18,93 +29,48 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-}
 
-.page-index__nav-title {
-        @include font(bold, 14px, 17px);
-        text-transform: uppercase;
-        margin-top: 37px;
-        margin-left: 34px;
-}
-
-.menu-item {
-        &__title {
-                @include font(normal, 14px, 17px);
-                color: $textred;
-                text-transform: uppercase;
-                margin-top: 20px;
-                margin-left: 33px;
-
-        }
-
-        &__sab-item {
-                margin-top: 11px;
-                margin-left: 54.5px;
-                @include font(normal, 14px, 17px);
-                color: #6F6E6E;
-
+        @include media(320px, 767px) {
+                margin-right: 26px;
         }
 }
 
-.page-index {
-        display: flex;
-        background-color: $bgpinc;
-        height: 764px;
+.header__mypage {
+        @include media(320px, 767px) {
+                display: none;
+        }
 }
 
-.page-index__nav {
-        width: 15%;
-        background: $white;
-        margin-left: auto;
+.header__basket {
+        @include media(768px, 1023px) {
+                margin-left: 42px;
+        }
+
+        @include media(320px, 767px) {
+                display: none;
+        }
 }
 
-.page-index__text {
-        @include font(900, 48px, 58px);
-        text-transform: uppercase;
+.header__search {
+        @include media(320px, 767px) {
+                margin-left: 41px;
+        }
 }
 
-.page-index__wrp {
-        display: flex;
+.header__logo :hover,
+.header__search :hover,
+.header__list :hover,
+.header__mypage :hover,
+.header__basket :hover {
+        @include hover;
 }
 
-.page-index__wrp-text {
-        font-family: $font-lato;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 28px;
-        line-height: 44px;
-        color: $black;
-        text-transform: uppercase;
-}
-
-.page-index__content {
-        margin-top: 25%;
-        position: absolute;
-        left: 54%;
-}
-
-.page-index__wrp-text-red {
-        margin-left: 28px;
-        @include font(900, 28px, 44px);
-        text-transform: uppercase;
-        color: $textred;
-}
-
-.page-index__pic {
-        width: 63%;
-
-}
-
-
-
-.section-intem__caption {
-        display: flex;
-        justify-content: center;
-        @include font(normal, 30px, 36px);
-}
-
-.section-intem__sab-caption {
-        @include flex-center;
-        @include font(normal, 14px, 17px);
-        color: #9F9F9F;
+.header__logo :active,
+.header__search :active,
+.header__list :active,
+.header__mypage :active,
+.header__basket :active {
+        background: #F16D7F;
+        background-size: 100%;
+        opacity: 0.9;
 }

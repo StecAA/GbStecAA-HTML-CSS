@@ -1,17 +1,3 @@
-.crumbs {
-        width: 100%;
-        height: 148px;
-        background-color: #F8F3F4;
-}
-
-.crumbs-title {
-        padding-left: 230px;
-        padding-top: 59px;
-        text-transform: uppercase;
-        @include font(normal, 24px, 29px);
-        color: $textred;
-}
-
 .registration {
         width: 100%;
         height: 675px;
@@ -74,6 +60,13 @@ registration__form-content-first {
         margin-top: 21px;
 }
 
+.registration__form-modal:hover,
+.registration__form-button:hover {
+        background: #a6f53e;
+        background-size: 100%;
+        opacity: 0.4;
+}
+
 
 .registration__form-modal {
         margin-top: 20px;
@@ -106,4 +99,15 @@ registration__form-content-first {
                 @include flex-center;
         }
 
+}
+
+.registration__form-modal:active,
+.registration__form-button:active {
+        background: #F16D7F;
+        background-size: 100%;
+        opacity: 0.9;
+}
+
+.registration__hid {
+        display: none;
 }

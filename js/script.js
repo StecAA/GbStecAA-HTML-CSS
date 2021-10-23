@@ -7,6 +7,6 @@ let navigation = document.getElementById('menu');
 // let wrp = document.getElementById('wrp');
 
 button.addEventListener('click', function(){ 
-  navigation.classList.toggle('show');
+  navigation.classList.toggle('page-index-show');
 //   wrp.classList.toggle('display-block');
 });
