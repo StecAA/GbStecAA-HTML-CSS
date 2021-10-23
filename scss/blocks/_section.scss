@@ -8,6 +8,13 @@
         @include flex-center;
         @include font(normal, 14px, 17px);
         color: #9F9F9F;
+
+        @include media(320px, 767px) {
+                width: 80%;
+                @include flex-center;
+                margin: auto;
+                text-align: center;
+        }
 }
 
 .section__content-item-box {

@@ -666,6 +666,23 @@ table {
   color: #9F9F9F;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .section-intem__sab-caption {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+}
+
 .section__content-item-box {
   display: -webkit-box;
   display: -ms-flexbox;
