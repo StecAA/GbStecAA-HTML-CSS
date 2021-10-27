@@ -1833,4 +1833,230 @@ registration__form-content-first {
   color: black;
   color: #6F6E6E;
 }
+
+.wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 48px;
+}
+
+.wrp-row {
+  width: 70%;
+}
+
+.form-select {
+  border: none;
+  width: 15%;
+}
+
+.fa-arrow-alt-circle-right,
+.fa-arrow-alt-circle-left {
+  color: orange;
+}
+
+.breadcrumb-item__wrp {
+  color: black;
+  text-decoration: none;
+}
+
+.breadcrumb-item {
+  color: var(black);
+}
+
+.carousel {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 30%;
+  width: 40%;
+}
+
+.d-block {
+  min-height: 50vh;
+  max-height: 50vh;
+}
+
+.product {
+  min-height: 60vh;
+  max-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+.product__hide {
+  display: none;
+}
+
+.row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: var(white);
+}
+
+.col-3 {
+  width: 33%;
+  background-color: #F8F8F8;
+}
+
+.container__wrp {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.product__text {
+  border: 1px solid #EAEAEA;
+  width: 65vw;
+  height: 601px;
+  position: absolute;
+  top: 77%;
+  left: 17%;
+  background-color: white;
+  text-align: center;
+}
+
+.crumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.red {
+  color: #EF5B70 !important;
+}
+
+.crumbs__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.margin-top {
+  margin-top: 50%;
+  margin-bottom: 128px;
+}
+
+.footer__button {
+  left: 246px;
+}
+
+.product__text-red {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 65px;
+  margin-bottom: 27px;
+}
+
+.product__text-red::before {
+  width: 63px;
+  height: 3px;
+  background-color: #F16D7F;
+  content: '';
+  position: absolute;
+  left: 30vw;
+  top: 10vh;
+}
+
+.product__text-content {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  color: #4D4D4D;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.product__text-content-list {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  color: #5E5E5E;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+.product__text-price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.product__text-price {
+  margin-bottom: 130px;
+}
+
+.product__text-price::before {
+  width: 641px;
+  height: 1px;
+  background-color: #EAEAEA;
+  content: '';
+  position: absolute;
+  left: 7vw;
+  top: 40vh;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/lato-bold-webfont.woff2) format("woff2"), url(../fonts/lato-bolditalic-webfont.woff) format("woff1");
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/lato-regular-webfont.woff2) format("woff2"), url(../fonts/lato-regular-webfont.woff) format("woff1");
+}
 /*# sourceMappingURL=style.css.map */
