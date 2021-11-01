@@ -92,6 +92,11 @@
 .page-index__pic {
         width: 63%;
 
+        @include media(1024px, 2000px) {
+                width: 800px;
+                height: 764px;
+        }
+
         @include media(768px, 1023px) {
                 width: 40%;
         }

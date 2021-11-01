@@ -9,12 +9,33 @@
         width: 100%;
         height: 148px;
         background-color: #F8F3F4;
+        display: flex;
+        align-items: center;
+
+        @include media(768px, 1023px) {}
+
+        @include media(320px, 767px) {
+                display: flex;
+                justify-content: flex-start;
+        }
 }
 
 .crumbs-title {
-        padding-left: 230px;
-        padding-top: 59px;
+        margin-left: 230px;
         text-transform: uppercase;
         @include font(normal, 24px, 29px);
         color: $textred;
+
+        @include media(768px, 1023px) {
+                margin-left: 16px;
+        }
+
+        @include media(320px, 767px) {
+                margin: auto;
+        }
+}
+
+.crumbs__title {
+        @include font(400, 24px, 28px);
+        text-transform: uppercase;
 }

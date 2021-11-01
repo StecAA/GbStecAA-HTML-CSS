@@ -1,11 +1,19 @@
 .registration {
         width: 100%;
         height: 675px;
+
+        @include media(320px, 767px) {
+                height: 150vh;
+        }
 }
 
 .registration__wrp {
         display: flex;
         justify-content: space-between;
+
+        @include media(320px, 767px) {
+                flex-direction: column;
+        }
 }
 
 .registration__form {
@@ -25,6 +33,17 @@
                 margin-top: 33px;
                 @include font(300, 16px, 19px);
         }
+
+        @include media(768px, 1023px) {
+                margin-left: 16px;
+                width: 48%;
+        }
+
+        @include media(320px, 767px) {
+                margin-left: 8px;
+                width: 95%;
+        }
+
 }
 
 registration__form-content-first {
@@ -34,6 +53,18 @@ registration__form-content-first {
 .registration__text {
         margin-top: 64px;
         width: 42%;
+
+        @include media(768px, 1023px) {
+                @include font(300, 14px, 19px);
+        }
+
+        @include media(320px, 767px) {
+                margin-left: 9px;
+                margin-top: 40px;
+                margin-bottom: 100px;
+                width: 95%;
+                @include font(300, 14px, 19px);
+        }
 }
 
 .registration__list {
@@ -74,6 +105,11 @@ registration__form-content-first {
         height: 45px;
         @include font(300, 13px, 16px);
         color: #B1B1B1;
+
+        @include media(320px, 767px) {
+                margin-left: 8px;
+                width: 95%;
+        }
 }
 
 .registration__form-button {
